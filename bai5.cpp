@@ -128,5 +128,5 @@ int main()
     theDayAfter.addDays(1); 
     cout << theDayAfter; cout << endl;
     cout << date << " la ngay thu: " << theDayOfYear(date) << " trong nam " << date.month.year;
-    cout << "hello nguyen";
+    cout << "hello nguyen iu dau";
 }
