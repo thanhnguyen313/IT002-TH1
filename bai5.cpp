@@ -113,7 +113,6 @@ void Input(DATE &date)
         }
     } while (!checkDays(date));
 }
-
 int main()
 {
     DATE date;
@@ -128,5 +127,5 @@ int main()
     cout << "Ngay sau do la: ";
     theDayAfter.addDays(1); 
     cout << theDayAfter; cout << endl;
-    cout << theDayOfYear(date);
+    cout << date << " la ngay thu: " << theDayOfYear(date) << " trong nam " << date.month.year;
 }

@@ -1,0 +1,47 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
+  <diagram name="Page-1" id="wERWj5spzIoNXAoKMw9v">
+    <mxGraphModel dx="1564" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QW11xXZSU_9BEls69U-a-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QW11xXZSU_9BEls69U-a-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-300" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QW11xXZSU_9BEls69U-a-1" value="Bắt đầu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QW11xXZSU_9BEls69U-a-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="QW11xXZSU_9BEls69U-a-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-300" y="220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QW11xXZSU_9BEls69U-a-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QW11xXZSU_9BEls69U-a-4" target="QW11xXZSU_9BEls69U-a-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QW11xXZSU_9BEls69U-a-4" value="theDayBefore = date;&lt;br&gt;theDayAfter = date;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Tính toán ngày trước và sau của ngày date:&lt;br&gt;&lt;/div&gt;&lt;div&gt;theDayBefore.subtractDays(1);&lt;br&gt;theDayAfter.addDays(1);&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="260" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QW11xXZSU_9BEls69U-a-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QW11xXZSU_9BEls69U-a-7" target="QW11xXZSU_9BEls69U-a-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QW11xXZSU_9BEls69U-a-7" value="Tính ngày thứ mấy trong năm:&lt;br&gt;theDayOfYear(date);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="420" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QW11xXZSU_9BEls69U-a-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QW11xXZSU_9BEls69U-a-11" target="QW11xXZSU_9BEls69U-a-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QW11xXZSU_9BEls69U-a-11" value="Xuất kết quả" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QW11xXZSU_9BEls69U-a-12" value="Kết Thúc" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="620" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QW11xXZSU_9BEls69U-a-13" value="Input(date);" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
